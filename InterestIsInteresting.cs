@@ -24,7 +24,6 @@ static class SavingsAccount
     {
         return (balance + ((balance * (decimal)InterestRate(balance)) / 100));
     }
-
     public static int YearsBeforeDesiredBalance(decimal balance, decimal targetBalance)
     {
         decimal  rate = (decimal)InterestRate(balance);
